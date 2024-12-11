@@ -4,7 +4,7 @@ class SecondDegreePolynomial:
     A: float
     B: float
     C: float
-    roots = tuple[any]
+    roots: tuple[float, float] | tuple[complex, complex]
 
     def __init__(self, A: float, B: float, C: float):
         self.A = A
@@ -14,7 +14,7 @@ class SecondDegreePolynomial:
     def _compute_determinant(self) -> float:
         return self.B ** 2 - 4 * self.A * self.C
     
-    def get_roots(self) -> tuple[any]:
+    def get_roots(self) -> tuple[float, float] | tuple[complex, complex]:
         determinant = self._compute_determinant()
         if math.isclose(0, determinant, rel_tol=1e-9, abs_tol=1e-9):
             root = - self.B / (2 * self.A)
