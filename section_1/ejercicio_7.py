@@ -5,7 +5,7 @@ class Employee:
     rate = None
     payment = None
 
-    # Then we define a constructor method to create a new employee object
+    # Then we define a constructor method to create a new Employee object
     
     def __init__(self, employees_name: str, worked_hours: float, rate: float):
         self.employees_name = employees_name.title()
