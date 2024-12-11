@@ -1,9 +1,9 @@
 import math
 
 class EquilateralTriangle:
-    # First we initialize the variables
+    # First we define the variables3
 
-    side = None
+    side: float
 
     # Then we create a constructor method to assign the side to the EquilateralTriangle object
 

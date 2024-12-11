@@ -1,10 +1,10 @@
 class Purchase:
-    # First we initialize the variables
+    # First we define the variables
 
-    purchase_total = None
-    sphere_color = None
-    discount = None
-    purchase_total_with_discount = None
+    purchase_total: float
+    sphere_color: str
+    discount: int
+    purchase_total_with_discount: float
 
     # Then, we define a constructor method for creating a Purchase object
 

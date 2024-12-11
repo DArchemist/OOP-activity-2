@@ -1,8 +1,8 @@
 class Employee:
-    employees_name = None
-    rate = None
-    worked_hours = None
-    salary = None
+    employees_name: str
+    rate: float
+    worked_hours: float
+    salary: float
 
     def __init__(self, employees_name: str, rate: float, worked_hours: float):
         self.employees_name = employees_name.title()

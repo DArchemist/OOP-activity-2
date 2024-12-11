@@ -1,11 +1,11 @@
 import math
 
 class Triangle:
-    # First we initialize the variables
+    # First we define the variables
 
-    side_1 = None
-    side_2 = None
-    side_3 = None
+    side_1: float
+    side_2: float
+    side_3: float
 
     # Then we create a constructor method to assign the sides to the Triangle object
 

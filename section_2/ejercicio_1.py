@@ -13,7 +13,7 @@ class Shape(ABC):
         pass
 
 class Circle(Shape):
-    radius: float = None
+    radius: float
 
     def __init__(self, radius: float):
         self.radius = radius
@@ -25,8 +25,8 @@ class Circle(Shape):
         return math.pi * self.radius ** 2
 
 class Rectangle(Shape):
-    base: float = None
-    height: float = None
+    base: float
+    height: float
 
     def __init__(self, base: float, height: float):
         self.base = base
@@ -39,7 +39,7 @@ class Rectangle(Shape):
         return self.base * self.height
     
 class Square(Shape):
-    side: float = None
+    side: float
 
     def __init__(self, side: float):
         self.side = side
@@ -51,8 +51,8 @@ class Square(Shape):
         return self.side ** 2
 
 class RightRectangle(Shape):
-    base: float = None
-    height: float = None
+    base: float
+    height: float
 
     def __init__(self, base: float, height: float):
         self.base = base

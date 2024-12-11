@@ -1,5 +1,5 @@
 class WeightComparator:
-    spheres_weights = None
+    spheres_weights: list[float]
 
     def __init__(self, spheres_weights: list[float]):
         self.spheres_weights = spheres_weights.copy()

@@ -1,8 +1,8 @@
 class SalesPeriod:
     # First we initizalize the variables
-    sales_per_department = None
-    sellers_salary = None
-    sellers_salary_per_department = None
+    sales_per_department: list[float]
+    sellers_salary: float
+    sellers_salary_per_department: list[float]
 
     def __init__(self, sales_per_department: list[float], sellers_salary: float):
         self.sales_per_department = sales_per_department.copy()

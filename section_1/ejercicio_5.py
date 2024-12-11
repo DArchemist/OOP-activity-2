@@ -1,11 +1,11 @@
 class Student:
     # First, we define the variables
     BASE_TUITION = 50000
-    enrollment_number = None
-    students_name = None
-    patrimony = None
-    estrato_social = None # This goddamn thing is so Colombian, that I just left it untranslated
-    tuition = None
+    enrollment_number: int
+    students_name: str
+    patrimony: float
+    estrato_social: int # This goddamn thing is so Colombian, that I just left it untranslated
+    tuition: float
 
     # Then we define a constructor method to create a new Student object
     

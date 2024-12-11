@@ -1,10 +1,10 @@
 import math
 
 class SecondDegreePolynomial:
-    A = None
-    B = None
-    C = None
-    roots = None
+    A: float
+    B: float
+    C: float
+    roots = tuple[any]
 
     def __init__(self, A: float, B: float, C: float):
         self.A = A

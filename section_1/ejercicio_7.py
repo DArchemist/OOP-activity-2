@@ -1,9 +1,9 @@
 class Employee:
-    # First we initialize the variables
-    employees_name = None
-    worked_hours = None
-    rate = None
-    payment = None
+    # First we define the variables
+    employees_name: str
+    worked_hours: float
+    rate: float
+    payment: float
 
     # Then we define a constructor method to create a new Employee object
     

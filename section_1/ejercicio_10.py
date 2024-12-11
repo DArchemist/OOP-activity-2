@@ -1,10 +1,10 @@
 class WeightComparator:
-    # First we initialize the variables
+    # First we define the variables
 
-    sphere_A_weight = None
-    sphere_B_weight = None
-    sphere_C_weight = None
-    sphere_D_weight = None
+    sphere_A_weight: float
+    sphere_B_weight: float
+    sphere_C_weight: float
+    sphere_D_weight: float
 
     # Then, we define a constructor method for creating a WeightComparator object
 
